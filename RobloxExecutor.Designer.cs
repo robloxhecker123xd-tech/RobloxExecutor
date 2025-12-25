@@ -28,18 +28,12 @@ namespace RobloxExecutor
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RobloxExecutor));
-            this.SuspendLayout();
-            // 
-            // RobloxExecutor
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Name = "RobloxExecutor";
             this.Text = "Roblox Executor";
-            this.ResumeLayout(false);
-
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
         }
 
         #endregion
